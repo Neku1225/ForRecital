@@ -12,10 +12,12 @@ import twitter4j.conf.Configuration;
 import twitter4j.conf.ConfigurationBuilder;
 
 public class TwitterReader {
-	final String consumerKey = "5gvlkLeKcA9y3or5Sg5fS2tLm";
-	final String consumerSecret = "Fqpn8NeU6NqDtXeOZWU2bDKQ0RxwVa4NdRYSsdaqVmr1IFUrgS";
-	final String accessToken = "3168259224-N2AxNMrGh5oXS2L9foLLEfpDUnVWZlZB3OiJgdo";
-	final String accessSecret = "eJeRde0qcPVdaAqfhUG3mehZvOSQiIXYPtxK8H22t6jM3";
+	/*‰º‚Ì4‚Â‚É©•ª‚Ìƒg[ƒNƒ“‚ğ“ü‚ê‚é‚Æ“®‚«‚Ü‚·*/
+	final String consumerKey = "";
+	final String consumerSecret = "";
+	final String accessToken = "";
+	final String accessSecret = "";
+	
 	StringPanel panel;
 	StatusListener listener;
 	ConfigurationBuilder cb;
