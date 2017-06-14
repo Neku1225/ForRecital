@@ -20,16 +20,8 @@ public class TransParentFrame extends JFrame {
 		this.setLocation(0, 0);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-		// 常に最前面に表示
-		// this.setAlwaysOnTop(true);
-
-		// 背景を透明あるいは半透明にする場合、
-
 		this.setUndecorated(true);
 		this.setBackground(new Color(0, 0, 0, 0));
-
-		// ウィンドウ範囲を示す枠をつけておく
-		// this.getRootPane().setBorder(new LineBorder(Color.black, 2));
 
 		this.pack();
 		this.setVisible(true);
